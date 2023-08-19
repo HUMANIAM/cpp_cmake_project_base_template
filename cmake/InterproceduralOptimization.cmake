@@ -1,4 +1,4 @@
-macro(myproject_enable_ipo)
+macro(cpp_cmake_project_base_template_enable_ipo)
   include(CheckIPOSupported)
   check_ipo_supported(RESULT result OUTPUT output)
   if(result)
